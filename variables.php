@@ -34,7 +34,7 @@ echo "<hr style=\"margin 1rem 0\">";
 Declare variable named firstName and 
 assign it with the value of your first name.
 */
-$fistName = "Tobi";
+$firstName = "Tobi";
 /*  
 Declare variable named lastName and 
 assign it with the value of your last name.
@@ -63,7 +63,7 @@ My name is _ _ _ _ _  _ _ _ _ _. I was born on _ _ of _ _ _ _ _ in  _ _ _ _.
 Declare variable named assembled and 
 assign it with the chained (concatenated) expression above.
 */
-$assembled = "My name is {$fistName} {$lastName}. I was born on {$day} of {$month} in {$year}.";
+$assembled = "My name is {$firstName} {$lastName}. I was born on {$day} of {$month} in {$year}.";
 /*
 Print assembled.
 */    
